@@ -6,18 +6,18 @@
  <style>
  @import url('https://fonts.googleapis.com/css?family=Passion+One');
  #pic {
-   height: 200px;
-   width: 200px;
+   height: 180px;
+   width: 180px;
    border-radius: 50%;
    background-color: white;
    margin-top: -100px;
-   margin-left: 150px;
+   margin-left: 30px;
    float: left;
   font-family: Passion One;
  }
  .pic {
-     height: 200px;
-     width: 200px;
+     height: 180px;
+     width: 180px;
      border-radius: 50%;
      text-align: center;
      font-size: 50px;
@@ -51,24 +51,39 @@
    margin-top: 100px;
  }
  #Imani {
-   background: url("https://mail.google.com/mail/u/0/?ui=2&ik=faf50c6814&view=fimg&th=15d3811796eff124&attid=0.1&disp=inline&safe=1&attbid=ANGjdJ_dpdNE1WpTEIXNfJpIQT4lH52_rdeo3siuJ9wiiUUopgfKYjLOgbwzERcF2z2q4D2m84VdhYiECZAet2PONy1qi8X-5rP19TBXHTl6CQY1PJ6LjRuyxBHvWyg&ats=1499884257014&rm=15d3811796eff124&zw&sz=w1920-h948")no-repeat;
+   background: url("mani.JPG")no-repeat;
    background-position: center;
+   -webkit-transform: rotate(90deg);
+ }
+ .mani {
+   -webkit-transform: rotate(-90deg);
  }
  #Emily {
-   background: url("https://mail.google.com/mail/u/0/?ui=2&ik=faf50c6814&view=fimg&th=15d37d016d531df9&attid=0.1&disp=inline&safe=1&attbid=ANGjdJ-ehJCONZJ-YcwHQZePLYoz4EMU822ES07kUKGQM1ax4UWaYY9hDThr4qyH6POIUcLthMqD52vt0IQi6w4ELXs64KEUWwYOX6YNVoF3meIo-unWKyjdYb6wxRo&ats=1499879972528&rm=15d37d016d531df9&zw&sz=w1920-h948")no-repeat;
+   background: url("emily.jpg")no-repeat;
    background-position: center;
  }
  #Mya{
-   background: url("https://mail.google.com/mail/u/0/?ui=2&ik=faf50c6814&view=fimg&th=15d37f963a78c5c0&attid=0.3&disp=inline&safe=1&attbid=ANGjdJ_b82av5wPh0SZiHpKpuzF6RkcgHreqB_nWxEr-NPT-iLupngO79P-lq19r7WrwCeHXT5_hj30-9W9WDVDD0zUcTopZsMC3HA5Jt_GmWdv9oOGcZHA0LmaCKTw&ats=1499882729097&rm=15d37f963a78c5c0&zw&sz=w1920-h948")no-repeat;
+   background: url("mya.jpg")no-repeat;
    background-position: center;
  }
  #Kenadie {
-   background: url("https://mail.google.com/mail/u/0/?ui=2&ik=faf50c6814&view=fimg&th=15d37dd015f790da&attid=0.1&disp=inline&safe=1&attbid=ANGjdJ96yX-sbfWF1Shr5Fa37otMA_1vwWd_P8EXiIsjQDsCsQHP-FehFWEyCzYcXzb3fjim9o8vr-aTbPJQHiXTHXX8OueQr8lOcbTyxNyjQRGHjDEWh0KYS1iIUyU&ats=1499880827914&rm=15d37dd015f790da&zw&sz=w1920-h948")no-repeat;
+   background: url("ken.jpg")no-repeat;
    background-position: center;
  }
  #home {
    background: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/lg/35/house-building_1f3e0.png")no-repeat center;
    color: black;
+ }
+ #forum {
+   background: url("https://developer.apple.com/assets/elements/icons/128x128/forum.png")no-repeat;
+   background-position: center;
+   color: black;
+ }
+ #Gallery {
+   background: url("http://icons.iconarchive.com/icons/thiago-silva/palm/128/Photos-icon.png")no-repeat;
+   background-position: center;
+   color: black;
+   text-shadow: none;
  }
 
  body{
@@ -87,20 +102,37 @@
    height: 400px;
    width: 250px;
  }
+#div {
 
- #div{
-   background-color:#DAF7A6;
-   border: 6px solid white;
-   height: 400px;
-   width: 500px;
- }
+}
 #box {
-  margin-top: -400px;
-  background-color:#DAF7A6;
-  border: 6px solid white;
+  margin-top: -415px;
+  float: right;
+
+}
+#boxes div{
+  background-color: #DAF7A6;
+  border: 10px solid white;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  top: 10px;
+
+}
+.img {
+  background-color: #DAF7A6;
+  border: 10px solid white;
   height: 400px;
   width: 500px;
 }
+ #pic22{
+   height: 250px;
+   width: 300px;
+
+}
+
+
+
  </style>
  </head>
  <body>
@@ -108,9 +140,14 @@
    <center><img id ="pic66"src = "https://rawgit.com/shamya0326/portfolio/master/gwc.png"/></center>
    <hr/>
 <div id = "pic"><div class = "pic" id = "Imani">
+<br/><div class = "mani">
+<span>Imani</span></div>
+</div></div><div id = "pic">
+<a href = "#"><div class = "pic" id = "forum">
 <br/>
-<span>Imani</span>
-</div></div><div id = "pic"><div class = "pic" id = "Mya">
+<span>Forum</span>
+</div></a></div>
+<div id = "pic"><div class = "pic" id = "Mya">
 <br/>
 <span>Mya</span>
 </div></div><div id = "pic"><div class = "pic" id = "home">
@@ -119,26 +156,35 @@
 </div></div><div id = "pic"><div class = "pic" id = "Kenadie">
 <br/>
 <span>Kenadie</span>
-</div></div><div id = "pic"><div class = "pic" id = "Emily">
+</div></div><div id = "pic">
+<a href = "#"><div class = "pic" id = "Gallery">
+<br/>
+<span>Gallery</span>
+</div></a></div>
+<div id = "pic"><div class = "pic" id = "Emily">
 <br/>
 <span>Emily</span>
 </div></a></div>
 
 <br/><br/><br/><br/><br/><br/><br/><br/>
    <center><h1>Shamya Ware </h1>
+<div class = "img">
    <img id ="pic7" src = "https://rawgit.com/shamya0326/portfolio/master/IMG_6547.JPG"/></center>
-   <div id = "div">
-    <div id= "spotify"
-   <p> My Name is Shamya Ware i'm 16 years old and this is my first year in Girls Who Code. I enjoyed it alot more than I expected, considering the fact that this is someting i'd never see myself doing. During my weeks in this program i found myself in many difficult situations. I gave frustrated alot when things got hard, but the people here in GWC were always supportive and helped me when i didn't understand what I was doing.</p>
-   <p> I met 16 amazing girls this summer who I feel i'll have a long lasting relationship with. The enviornment was so friendly, it ws so easy to talk to them. All of the girls were very open to the ideas of others.<p\>
-   <p> While in this program, I've 
+ </div>
+   <div id = "boxes">
+   <div>
+   <p> My Name is Shamya Ware i'm 16 years old and this is my first year in Girls Who Code. I enjoyed it alot more than I expected, considering the fact that this is something i'd never see myself doing. During my weeks in this program i found myself in many difficult situations. I got frustrated alot when things got hard, but the people here in GWC were always supportive and helped me when i didn't understand what I was doing.</p>
+   <p> I met 16 amazing girls this summer who I feel i'll have a long lasting relationship with. The enviornment was so friendly, it was so easy to talk to them. They made everything do fun and worth waking up early in the morning during the summer.<p/>
 </div>
+<div id = "box">
+<p> In this program, with the help of Crystal, Anna, Justin, i was able to study different langauages such as Obamicon, Python, CSS, html, Django Etc. I was told that even though I wanted to be a lawyer, that this would be a great thing to know and understand in my career.<p/>
+ <img id  = "pic22" src "https://github.com/shamya0326/portfolio/blob/master/Obamicon.jpg?raw=true"/>
 
-<div id = "box" style="float: right; " >
 
 
 
 
-<div/>
- </body>
+</div>
+</div>
+</body>
 </html>
